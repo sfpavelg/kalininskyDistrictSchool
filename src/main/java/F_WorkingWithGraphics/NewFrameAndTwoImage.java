@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class NewFrameAndTwoImage extends JFrame {
-    private final String IMAGE_PATH = "src/main/java/images/Стиль аниме 5.jpg"; // Относительный путь к изображению. Объявляем переменную константой.
+    private final String IMAGE_PATH = "src/main/java/Z_images/Стиль аниме 5.jpg"; // Относительный путь к изображению. Объявляем переменную константой.
     private final String TITLE = "Изображение из файла"; //Константа. Заголовок.
     ImageIcon icon; //Переменная для объекта ImageIcon.
     JLabel label1; //Переменная для объекта JLabel.
@@ -21,10 +21,6 @@ public class NewFrameAndTwoImage extends JFrame {
         label1 = new JLabel(icon);           //JLabel - это компонент библиотеки Swing, который используется для отображения текста или иконки на JFrame или JPanel
         label2 = new JLabel(icon);
         // JLabel позволяет создавать метки или надписи, которые могут отображать статический текст или изображения.
-
-        //add(label, BorderLayout.CENTER); //Добавляем методом add() JLabel на наш JFrame
-        //Но вторым аргументом идёт BorderLayout.CENTER.  BorderLayout - это явно класс, и если обращение с заглавной буквы, значит это обращение к статике.
-        // В данном случае обращение к константе CENTER. Константа - это специальная не изменяемая переменная.
 
         jPanel1 = new JPanel(); //Здесь создаём объект типа JPanel.
         jPanel2 = new JPanel(); //JPanel - это контейнерный компонент из библиотеки Swing.

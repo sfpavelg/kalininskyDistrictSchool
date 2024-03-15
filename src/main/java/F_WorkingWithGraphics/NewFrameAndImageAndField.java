@@ -3,7 +3,7 @@ package F_WorkingWithGraphics;
 import javax.swing.*;
 
 public class NewFrameAndImageAndField extends JFrame{
-    private final String IMAGE_PATH = "src/main/java/images/Стиль аниме 5.jpg"; // Относительный путь к изображению. Объявляем переменную константой.
+    private final String IMAGE_PATH = "src/main/java/Z_images/Стиль аниме 5.jpg"; // Относительный путь к изображению. Объявляем переменную константой.
     private final String TITLE = "Изображение из файла"; //Константа. Заголовок.
     ImageIcon icon; //Переменная для объекта ImageIcon.
     JLabel label; //Переменная для объекта JLabel.

@@ -1,11 +1,5 @@
-import A_primaryClasses.StartOfLessonsInPrimaryClass;
-import B_secondClasses.StartOfLessonsInSecondClass;
-import C_thirdClasses.StartSetAndGetClass;
-import D_furthClasses.GoToSchool;
-import E_DrivingLesson.StartDriving;
-import F_WorkingWithGraphics.*;
-
-import javax.swing.*;
+import G_logicalAndConditionalOperators.SchoolBagAndConditionalOperators;
+import G_logicalAndConditionalOperators.SchoolBagAndLogicalOperators;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,7 +12,9 @@ public class Main {
 //        new NewFrameAndImage();
 //        new NewFrameAndImageAndField();
 //        new NewFrameAndImageAndPathCheck();
-        new NewFrameAndTwoImage();
+//        new NewFrameAndTwoImage();
+//        new SchoolBagAndConditionalOperators();
+        new SchoolBagAndLogicalOperators();
 
     }
 }

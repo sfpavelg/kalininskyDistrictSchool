@@ -5,27 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d036f9d-6f5a-4af3-a95a-5f28ac0bbd2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/A_primaryClasses/FirstClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/A_primaryClasses/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/A_primaryClasses/StartOfLessonsInPrimaryClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/B_secondClasses/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/B_secondClasses/SecondClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/B_secondClasses/StartOfLessonsInSecondClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/C_thirdClasses/DataClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/C_thirdClasses/SetAndGetClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/C_thirdClasses/StartSetAndGetClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/D_furthClasses/GoToSchool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/D_furthClasses/HomeBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/D_furthClasses/SchoolBag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/A_primaryClasses/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/A_primaryClasses/FirstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/A_primaryClasses/FirstClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/A_primaryClasses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/A_primaryClasses/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/D_furthClasses/GoToSchool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/D_furthClasses/GoToSchool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/E_DrivingLesson/PrototypeCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_DrivingLesson/PrototypeCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/E_DrivingLesson/StartDriving.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/E_DrivingLesson/StartDriving.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/F_WorkingWithGraphics/NewFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/F_WorkingWithGraphics/NewFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/F_WorkingWithGraphics/NewFrameAndImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/F_WorkingWithGraphics/NewFrameAndImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/F_WorkingWithGraphics/NewFrameAndImageAndField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/F_WorkingWithGraphics/NewFrameAndImageAndField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/F_WorkingWithGraphics/NewFrameAndImageAndPathCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/F_WorkingWithGraphics/NewFrameAndImageAndPathCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/F_WorkingWithGraphics/NewFrameAndTwoImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/F_WorkingWithGraphics/NewFrameAndTwoImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/images/Стиль аниме 5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Z_images/Стиль аниме 5.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,34 +50,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Papa/IdeaProjects/BullsAndCows",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Papa/IdeaProjects/p_sto_6&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Papa\IdeaProjects\kalininskyDistrictSchool\src\main\java\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Papa\IdeaProjects\kalininskyDistrictSchool\src\main\java\images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="G_logicalAndConditionalOperators" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
@@ -172,11 +167,40 @@
       <workItem from="1709626629870" duration="640000" />
       <workItem from="1709750925168" duration="1284000" />
       <workItem from="1709804918155" duration="4652000" />
-      <workItem from="1709901659920" duration="22217000" />
+      <workItem from="1709901659920" duration="23577000" />
+      <workItem from="1709977155202" duration="6072000" />
+      <workItem from="1710071819095" duration="4302000" />
+      <workItem from="1710137634641" duration="4795000" />
+      <workItem from="1710339476663" duration="1689000" />
+      <workItem from="1710405197255" duration="13077000" />
+      <workItem from="1710496642940" duration="2437000" />
     </task>
+    <task id="LOCAL-00001" summary="add: 6 lessons and zero lesson">
+      <created>1709933879038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709933879038</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add: 6 lessons and zero lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: 6 lessons and zero lesson" />
   </component>
 </project>

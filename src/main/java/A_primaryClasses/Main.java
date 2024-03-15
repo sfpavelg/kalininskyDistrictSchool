@@ -2,9 +2,8 @@ package A_primaryClasses;
 
 public class Main {
     public static void main(String[] args) {
-
-        //FirstClass.schoolboyFiveWrites();
-
+        int x;
+        x = 2;
 
         FirstClass firstClass1A;
         firstClass1A = new FirstClass();
@@ -13,15 +12,17 @@ public class Main {
         firstClass1A.schoolboyTwoWrites();
         firstClass1A.schoolboyThreeWrites();
         firstClass1A.schoolboyFourWrites();
-
-
+//
+//
         System.out.println();
         System.out.println("=================================");
-
+//
         FirstClass firstClass1B = new FirstClass();
         firstClass1B.schoolboyOneWrites();
-//        new StartOfLessonsInPrimaryClass();
 
+
+
+////        new StartOfLessonsInPrimaryClass();
 
     }
 }

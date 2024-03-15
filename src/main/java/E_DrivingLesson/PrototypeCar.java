@@ -2,7 +2,7 @@ package E_DrivingLesson;
 
 public class PrototypeCar {
 
-    private final int MAX_SPEED = 20;
+    private final int MAX_SPEED = 5;
     public static final int MAX_SPEED_FOR_TEACHER = 20;
     private String driver;
     public static String staticDriver;
@@ -12,7 +12,7 @@ public class PrototypeCar {
 
     public void driving(String driver) {
         this.driver = driver;
-        System.out.println("Вождение совершает ученик: " + driver);
+        System.out.println("Вождение совершает ученик: " + this.driver);
     }
 
     public static void staticDriving(String staticDriver) {

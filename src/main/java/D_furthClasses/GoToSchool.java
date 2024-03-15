@@ -10,6 +10,9 @@ public class GoToSchool extends SchoolBag{
         completingSchoolBag( "Кроссовки.", "Спортивная форма.");
 //        completingSchoolBag2();
 //        completingSchoolBag();
+        System.out.println(homeBox.getBoxWithPens());
+        homeBox.setBoxWithPens("Ручка чёрная");
+        System.out.println(homeBox.getBoxWithPens());
     }
     //Переопределяем содержимое первой версии комплектности портфеля.
 //    @Override

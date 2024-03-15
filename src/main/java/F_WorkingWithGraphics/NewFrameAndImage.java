@@ -8,8 +8,8 @@ public class NewFrameAndImage extends JFrame {
         setSize(1000, 1000); //В данном методе мы указываем только ширину и высоту окна. Но нет позиционирования на экране. Сработал перегруженный метод.
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //Определяем поведение приложения при закрытии этого окна.
 
-        //String imagePath = "src/main/java/images/Стиль аниме 5.jpg"; // Относительный путь к изображению
-        String imagePath = "C:\\Users\\Papa\\IdeaProjects\\kalininskyDistrictSchool\\src\\main\\java\\images\\Стиль аниме 5.jpg"; // Абсолютный путь к изображению
+        String imagePath = "src/main/java/Z_images/Стиль аниме 5.jpg"; // Относительный путь к изображению
+        //String imagePath = "C:\\Users\\Papa\\IdeaProjects\\kalininskyDistrictSchool\\src\\main\\java\\Z_images\\Стиль аниме 5.jpg"; // Абсолютный путь к изображению
 
         System.out.println("Текущий каталог: " + System.getProperty("user.dir")); // так можно узнать текущий каталог.
 
