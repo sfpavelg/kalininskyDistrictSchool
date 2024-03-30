@@ -1,4 +1,4 @@
-package E_DrivingLesson;
+package E_drivingLesson;
 
 public class StartDriving {
     PrototypeCar car1;

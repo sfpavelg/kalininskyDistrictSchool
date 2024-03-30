@@ -22,37 +22,53 @@ public class SchoolBagAndLogicalOperators {
 
 //        //Вариант №3 из класса SchoolBagAndConditionalOperators возьмём за основу и перепишем его используя логические операторы.
 //        if (pens == null) {
-//            if (pencils == null){
+//            System.out.println("Ты забыл ручку!");
+//        } else {
+//            if (pencils == null) {
+//                System.out.println("Ты забыл карандаш!");
+//            } else {
 //                if (rulers == null) {
+//                    System.out.println("Ты забыл линейку!");
+//                } else {
 //                    if (diaries == null) {
-//
+//                        System.out.println("Ты забыл дневник!");
+//                    } else {
+//                        System.out.println("Портфель укомплектован!");
 //                    }
 //                }
 //            }
-//            System.out.println("Портфель не укомплектован!");
 //        }
 
+        System.out.println("================================================");
         //используем логический оператор "или"
         if (pens == null | pencils == null | rulers == null | diaries == null){
             System.out.println("Портфель не укомплектован!");
+        } else {
+            System.out.println("Портфель  укомплектован!");
         }
+        System.out.println("================================================");
         //используем логический оператор короткое "или"
         if (pens == null || pencils == null || rulers == null || diaries == null){
             System.out.println("Портфель не укомплектован!");
         }
+        System.out.println("================================================");
+
         //используем логический оператор "и"
-        if (pens == null & pencils == null & rulers == null & diaries == null){
-            System.out.println("Портфель не укомплектован!");
+        if (pens != null & pencils != null & rulers != null & diaries != null){
+            System.out.println("Портфель  укомплектован!");
         }
+        System.out.println("================================================");
         //используем логический оператор короткое "и"
         if (pens == null && pencils == null && rulers == null && diaries == null){
             System.out.println("Портфель не укомплектован!");
         }
+        System.out.println("================================================");
 
         //используем логический оператор короткое "или" и логический оператор "не"
         if (pens != null || pencils != null || rulers != null || diaries != null){
             System.out.println("Портфель укомплектован полностью!");
         }
+        System.out.println("================================================");
 
     }
 }

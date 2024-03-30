@@ -1,31 +1,31 @@
 package A_primaryClasses;
 
 class FirstClass {
-//      public FirstClass(){
-//        schoolboyOneWrites();
-//        schoolboyTwoWrites();
-//        schoolboyThreeWrites();
-//        schoolboyFourWrites();
-//        schoolboyFiveWrites();
-//    }
+      public FirstClass(){
+        schoolboyOneWrites();
+        schoolboyTwoWrites();
+        schoolboyThreeWrites();
+        schoolboyFourWrites();
+ //       schoolboyFiveWrites();
+    }
 
-     void schoolboyOneWrites() {
+    void schoolboyOneWrites() {
         System.out.print("Хочу"); //Мальчик пишет
     }
 
     void schoolboyTwoWrites() {
 
-         System.out.print(" быть");
+        System.out.print(" быть");
     }
 
     void schoolboyThreeWrites() {
 
-         System.out.print(" программистом");
+        System.out.print(" программистом");
     }
 
     void schoolboyFourWrites() {
 
-         System.out.print(" JAVA");
+        System.out.print(" JAVA");
     }
 //    static void schoolboyFiveWrites() {
 //        System.out.println();

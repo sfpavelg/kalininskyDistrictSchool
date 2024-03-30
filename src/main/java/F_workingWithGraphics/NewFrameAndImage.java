@@ -1,4 +1,4 @@
-package F_WorkingWithGraphics;
+package F_workingWithGraphics;
 
 import javax.swing.*;
 

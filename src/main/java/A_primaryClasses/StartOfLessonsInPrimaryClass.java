@@ -13,6 +13,6 @@ public class StartOfLessonsInPrimaryClass {
         System.out.println();
 
         FirstClass firstClass1B = new FirstClass();
-//        firstClass1B.schoolboyOneWrites();
+        firstClass1B.schoolboyOneWrites();
     }
 }

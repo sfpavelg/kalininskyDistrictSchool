@@ -1,5 +1,4 @@
-import G_logicalAndConditionalOperators.SchoolBagAndConditionalOperators;
-import G_logicalAndConditionalOperators.SchoolBagAndLogicalOperators;
+import F_workingWithGraphics.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,10 +10,11 @@ public class Main {
 //        new NewFrame();
 //        new NewFrameAndImage();
 //        new NewFrameAndImageAndField();
-//        new NewFrameAndImageAndPathCheck();
+        new NewFrameAndImageAndPathCheck();
 //        new NewFrameAndTwoImage();
 //        new SchoolBagAndConditionalOperators();
-        new SchoolBagAndLogicalOperators();
+//        new SchoolBagAndLogicalOperators();
+//        new SchoolBagAndArrays();
 
     }
 }

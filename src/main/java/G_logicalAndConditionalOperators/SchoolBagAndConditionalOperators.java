@@ -1,7 +1,12 @@
 package G_logicalAndConditionalOperators;
 
-
-//Представим, что школьный портфель собирает манипулятор. Предметы берёт из домашнего шкафа HomeBox.
+/*
+Представим, что школьный портфель собирает манипулятор.
+Предметы берёт из домашнего шкафа HomeBox.
+Но может возникнуть такая ситуация, что в шкафу предметы закончились.
+Манипулятор совершит действие, но ни чего в портфель не положит.
+Нам этот момент как то нужно отследить.
+ */
 public class SchoolBagAndConditionalOperators { //Объявили класс.
     HomeBox homeBox = new HomeBox(); //Создали экземпляр домашнего шкафа.
 
@@ -23,29 +28,29 @@ public class SchoolBagAndConditionalOperators { //Объявили класс.
         System.out.println("====================================");
 
         //Вместо вывода на консоль, устроим проверку. Вариант №1. С фигурными скобками.
-        if (pens == null) {     //Если переменной: pens в домашнем шкафу HomeBox не присваивалось значение, то оно по умолчанию равно null.
-            System.out.println("Ты забыл ручку!");
-        } else {
-            System.out.println(pens);
-        }
-
-        if (pencils == null) {
-            System.out.println("Ты забыл карандаш!");
-        } else {
-            System.out.println(pencils);
-        }
-
-        if (rulers == null) {
-            System.out.println("Ты забыл линейку!");
-        } else {
-            System.out.println(rulers);
-        }
-
-        if (diaries == null) {
-            System.out.println("Ты забыл дневник!");
-        } else {
-            System.out.println(diaries);
-        }
+//        if (pens == null) {     //Если переменной: pens в домашнем шкафу HomeBox не присваивалось значение, то оно по умолчанию равно null.
+//            System.out.println("Ты забыл ручку!");
+//        } else {
+//            System.out.println(pens);
+//        }
+//
+//        if (pencils == null) {
+//            System.out.println("Ты забыл карандаш!");
+//        } else {
+//            System.out.println(pencils);
+//        }
+//
+//        if (rulers == null) {
+//            System.out.println("Ты забыл линейку!");
+//        } else {
+//            System.out.println(rulers);
+//        }
+//
+//        if (diaries == null) {
+//            System.out.println("Ты забыл дневник!");
+//        } else {
+//            System.out.println(diaries);
+//        }
 
 
 //        //Вместо вывода на консоль, устроим проверку. Вариант №2. Без фигурных скобок.
@@ -73,20 +78,24 @@ public class SchoolBagAndConditionalOperators { //Объявили класс.
 //            System.out.println(diaries);
 
 
-
-//        //Вместо вывода на консоль, устроим проверку. Вариант №3. Вложенный if.
-//        if (pens == null) {
-//            if (pencils == null){
-//                if (rulers == null) {
-//                    if (diaries == null) {
-//
-//                    }
-//                }
-//            }
-//            System.out.println("Портфель не укомплектован!");
-//        }
-
-
+        //Вместо вывода на консоль, устроим проверку. Вариант №3. Вложенный if.
+        if (pens == null) {
+            System.out.println("Ты забыл ручку!");
+        } else {
+            if (pencils == null) {
+                System.out.println("Ты забыл карандаш!");
+            } else {
+                if (rulers == null) {
+                    System.out.println("Ты забыл линейку!");
+                } else {
+                    if (diaries == null) {
+                        System.out.println("Ты забыл дневник!");
+                    } else {
+                        System.out.println("Портфель укомплектован!");
+                    }
+                }
+            }
+        }
 
     }
 }

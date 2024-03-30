@@ -1,8 +1,6 @@
-package G_logicalAndConditionalOperators;
+package J_for_while;
 
 class HomeBox {
-    //private String boxWithPens;
-    //Если в поле мы отделяем объявление переменной, то присвоение значения нужно осуществлять в методе, который эту переменную использует.
     private String boxWithPens = "Ручка синяя.";
     private String boxWithPencils = "Карандаш простой.";
     private String boxWithRulers = "Линейка.";
@@ -10,7 +8,9 @@ class HomeBox {
     private String mathematicsTextbook = "Учебник по математике";
     private String mathematicsNotebook = "Тетрадь по математике";
 
-    public String getBoxWithPens() { return boxWithPens; }
+    public String getBoxWithPens() {
+        return boxWithPens;
+    }
 
     public void setBoxWithPens(String boxWithPens) {
         this.boxWithPens = boxWithPens;

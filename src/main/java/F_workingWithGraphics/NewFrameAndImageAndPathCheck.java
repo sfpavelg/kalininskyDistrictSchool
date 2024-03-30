@@ -1,7 +1,6 @@
-package F_WorkingWithGraphics;
+package F_workingWithGraphics;
 
 import javax.swing.*;
-import java.awt.*;
 import java.io.File;
 
 public class NewFrameAndImageAndPathCheck extends JFrame {

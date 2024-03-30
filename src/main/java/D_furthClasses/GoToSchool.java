@@ -15,13 +15,13 @@ public class GoToSchool extends SchoolBag{
         System.out.println(homeBox.getBoxWithPens());
     }
     //Переопределяем содержимое первой версии комплектности портфеля.
-//    @Override
-//    void completingSchoolBag(){
-//        System.out.println(homeBox.getMathematicsTextbook());
-//        //Второй вариант обращения к полю класса HomeBox, создаётся объект, без объявления переменной.
-//        System.out.println(new HomeBox().getMathematicsNotebook());
-//        //
-//    }
+    @Override
+    void completingSchoolBag(){
+        System.out.println(homeBox.getMathematicsTextbook());
+        //Второй вариант обращения к полю класса HomeBox, создаётся объект, без объявления переменной.
+        System.out.println(new HomeBox().getMathematicsNotebook());
+        //
+    }
 
     //Дополнительный метод доукомплектации портфеля.
 //    void completingSchoolBag2(){
