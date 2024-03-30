@@ -90,24 +90,12 @@
       <recent name="C:\Users\Papa\IdeaProjects\kalininskyDistrictSchool\src\main\java\images" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="L_collection" />
       <recent name="H_arrays" />
       <recent name="G_logicalAndConditionalOperators" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="A_primaryClasses.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A_primaryClasses.Main" />
-      <module name="kalininskyDistrictSchool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A_primaryClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.L_collection.Main">
     <configuration name="I_encapsulationAndStatic.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="I_encapsulationAndStatic.Main" />
       <module name="kalininskyDistrictSchool" />
@@ -127,6 +115,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="J_for_while.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="L_collection.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="L_collection.Main" />
+      <module name="kalininskyDistrictSchool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="L_collection.schoolBag.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.L_collection.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.J_for_while.Main" />
         <item itemvalue="Application.I_encapsulationAndStatic.Main" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.A_primaryClasses.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +216,7 @@
       <workItem from="1711513439640" duration="86000" />
       <workItem from="1711558403075" duration="4776000" />
       <workItem from="1711648286379" duration="601000" />
-      <workItem from="1711789692418" duration="13536000" />
+      <workItem from="1711789692418" duration="27294000" />
     </task>
     <task id="LOCAL-00001" summary="add: 6 lessons and zero lesson">
       <created>1709933879038</created>
@@ -231,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710499453590</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add: 8,9,10,11 lessons">
+      <created>1711810216959</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711810216959</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +259,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add: 6 lessons and zero lesson" />
     <MESSAGE value="add: 7 lessons" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: 7 lessons" />
+    <MESSAGE value="add: 8,9,10,11 lessons" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: 8,9,10,11 lessons" />
   </component>
 </project>
