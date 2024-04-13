@@ -13,6 +13,10 @@ class PassportData {                //Нет геттеров, сеттеров.
     private Date registrationDate;
     private String placeOfResidence;
 
+//    PassportData(){
+//
+//    }
+
     //Нужно изучить генерацию перегруженных конструкторов.
     PassportData(String name, String lastname, String surname) {
         this.name = name;
@@ -33,18 +37,38 @@ class PassportData {                //Нет геттеров, сеттеров.
         this.placeOfResidence = placeOfResidence;
     }
 
+    public PassportData(String name) {
+        this.name = name;
+    }
+
+    public PassportData(String name, int series, int number) {
+        this.name = name;
+        this.series = series;
+        this.number = number;
+    }
+
+//    @Override
+//    public String toString() {
+//        return "\Паспортные данные{" +
+//                "\nИмя: " + name + '\'' +
+//                ", \nФамилия: " + lastname + '\'' +
+//                ", \nОтчество: " + surname + '\'' +
+//                ", \nДень Рождения: " + birthday +
+//                ", \nСерия Паспорта: " + series +
+//                ", \nНомер Паспорта:" + number +
+//                ", \nМесто регистрации Паспорта: " + placeOfRegistration + '\'' +
+//                ", \nДата регистрации Паспорта: " + registrationDate +
+//                ", \nМесто прописки: " + placeOfResidence + '\'' +
+//                '}' + '\n';
+//    }
+
+
     @Override
     public String toString() {
-        return "\nPassportData{" +
-                "\nname='" + name + '\'' +
-                ", \nlastname='" + lastname + '\'' +
-                ", \nsurname='" + surname + '\'' +
-                ", \nbirthday=" + birthday +
-                ", \nseries=" + series +
-                ", \nnumber=" + number +
-                ", \nplaceOfRegistration='" + placeOfRegistration + '\'' +
-                ", \nregistrationDate=" + registrationDate +
-                ", \nplaceOfResidence='" + placeOfResidence + '\'' +
-                '}' + '\n';
+        return "PassportData{" +
+                "name='" + name + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", surname='" + surname + '\'' +
+                '}';
     }
 }

@@ -10,19 +10,6 @@ public class Address {
         this.streetName = streetName;
         this.houseNumber = houseNumber;
     }
-
-//    public String getCityName() {
-//        return cityName;
-//    }
-//
-//    public String getStreetName() {
-//        return streetName;
-//    }
-//
-//    public int getHouseNumber() {
-//        return houseNumber;
-//    }
-
     @Override
     public String toString() {
         return "Адрес установки дома: {" +
