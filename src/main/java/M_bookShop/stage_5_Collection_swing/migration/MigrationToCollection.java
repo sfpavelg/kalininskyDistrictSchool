@@ -3,7 +3,6 @@ package M_bookShop.stage_5_Collection_swing.migration;
 import M_bookShop.stage_5_Collection_swing.logic.PublicationLogic;
 
 public class MigrationToCollection {
-    private PublicationLogic publicationLogic;
 
     public MigrationToCollection(PublicationLogic publicationLogic) {
 
@@ -39,10 +38,5 @@ public class MigrationToCollection {
         publicationLogic.addPublicationToCollection("Наша Родина", "Издательство \"Отечество\"", "Газеты", 50);
         publicationLogic.addPublicationToCollection("Сибирская Трибуна", "Издательство \"Сибирские известия\"", "Газеты", 50);
         publicationLogic.addPublicationToCollection("Газета А", "Русское издательство А", "Газеты", 50);
-        this.publicationLogic = publicationLogic;
-    }
-
-    public PublicationLogic getPublicationLogic() {
-        return publicationLogic;
     }
 }

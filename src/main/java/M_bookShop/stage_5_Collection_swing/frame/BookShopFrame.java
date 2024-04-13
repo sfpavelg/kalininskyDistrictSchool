@@ -6,14 +6,13 @@ import java.awt.event.ActionListener;
 import M_bookShop.stage_5_Collection_swing.logic.PublicationLogic;
 
 public class BookShopFrame extends JFrame {
-    private PublicationLogic publicationLogic;
-    private JTextField titleField;
-    private JTextField authorField;
-    private JTextField typeField;
-    private JTextField copiesField;
+    private final JTextField titleField;
+    private final JTextField authorField;
+    private final JTextField typeField;
+    private final JTextField copiesField;
+    private JFrame infoFrame; // переменная для хранения ссылки на текущее окно информации
 
     public BookShopFrame(final PublicationLogic publicationLogic) {
-        this.publicationLogic = publicationLogic;
 
         setTitle("Управление книжным магазином");
         setSize(400, 300);
@@ -78,12 +77,15 @@ public class BookShopFrame extends JFrame {
         displayButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                if(infoFrame != null) {
+                    infoFrame.dispose(); // закрываем предыдущее окно информации, если оно уже было открыто
+                }
                 JTextArea displayArea = new JTextArea(10, 30);
                 displayArea.setText(publicationLogic.publicationCollection.getList().toString());
                 displayArea.setEditable(false);
                 JScrollPane scrollPane = new JScrollPane(displayArea);
 
-                JFrame infoFrame = new JFrame("Информация о публикации");
+                infoFrame = new JFrame("Информация о публикации");
                 infoFrame.setBounds(500, 200, 1000, 700);
                 infoFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                 infoFrame.add(scrollPane);
