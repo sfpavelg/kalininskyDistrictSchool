@@ -1,4 +1,4 @@
-package M_bookShop.stage_4_Swing.logger;
+package M_bookShop.stage_4_Collection_logger.logger;
 
 import java.util.logging.Logger;
 

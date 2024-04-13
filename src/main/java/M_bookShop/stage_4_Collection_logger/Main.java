@@ -1,9 +1,9 @@
-package M_bookShop.stage_4_Swing;
+package M_bookShop.stage_4_Collection_logger;
 
-import M_bookShop.stage_4_Swing.logger.LoggerUtil;
-import M_bookShop.stage_4_Swing.logic.PublicationLogic;
-import M_bookShop.stage_4_Swing.migration.MigrationToCollection;
-import M_bookShop.stage_4_Swing.printableInfo.PrintableInfo;
+import M_bookShop.stage_4_Collection_logger.logger.LoggerUtil;
+import M_bookShop.stage_4_Collection_logger.logic.PublicationLogic;
+import M_bookShop.stage_4_Collection_logger.migration.MigrationToCollection;
+import M_bookShop.stage_4_Collection_logger.printableInfo.PrintableInfo;
 
 public class Main {
     public static void main(String[] args) {

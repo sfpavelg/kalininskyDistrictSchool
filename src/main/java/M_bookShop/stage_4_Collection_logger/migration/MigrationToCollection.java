@@ -1,6 +1,6 @@
-package M_bookShop.stage_4_Swing.migration;
+package M_bookShop.stage_4_Collection_logger.migration;
 
-import M_bookShop.stage_4_Swing.logic.PublicationLogic;
+import M_bookShop.stage_4_Collection_logger.logic.PublicationLogic;
 
 public class MigrationToCollection {
     private PublicationLogic publicationLogic;

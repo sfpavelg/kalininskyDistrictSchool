@@ -1,6 +1,6 @@
-package M_bookShop.stage_4_Swing.collection;
+package M_bookShop.stage_4_Collection_logger.collection;
 
-import M_bookShop.stage_4_Swing.printableInfo.Printable;
+import M_bookShop.stage_4_Collection_logger.printableInfo.Printable;
 
 import java.util.ArrayList;
 import java.util.List;

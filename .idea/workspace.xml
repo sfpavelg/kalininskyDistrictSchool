@@ -66,7 +66,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Papa/IdeaProjects/kalininskyDistrictSchool/src/main/java/M_bookShop/stage_4_Swing",
+    "last_opened_file_path": "C:/Users/Papa/IdeaProjects/kalininskyDistrictSchool/src/main/java/M_bookShop/stage_5_Collection_swing",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,6 +84,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Papa\IdeaProjects\kalininskyDistrictSchool\src\main\java\M_bookShop\stage_5_Collection_swing" />
       <recent name="C:\Users\Papa\IdeaProjects\kalininskyDistrictSchool\src\main\java\M_bookShop\stage_4_Swing" />
       <recent name="C:\Users\Papa\IdeaProjects\kalininskyDistrictSchool\src\main\java\M_bookShop\stage_3_Collection_interface" />
       <recent name="C:\Users\Papa\IdeaProjects\kalininskyDistrictSchool\src\main\java\M_weakConnectionThroughTheInterface\stageTwo" />
@@ -98,26 +99,13 @@
       <recent name="G_logicalAndConditionalOperators" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.M_bookShop.stage_4_Swing.Main">
+  <component name="RunManager" selected="Application.M_bookShop.stage_5_Collection_swing.Main">
     <configuration name="K_abstraction.Car.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="K_abstraction.Car.Main" />
       <module name="kalininskyDistrictSchool" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="K_abstraction.Car.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="L_collection.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="L_collection.Main" />
-      <module name="kalininskyDistrictSchool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="L_collection.schoolBag.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +139,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M_bookShop.stage_4_Swing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="M_bookShop.stage_4_Swing.Main" />
+    <configuration name="M_bookShop.stage_5_Collection_swing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="M_bookShop.stage_5_Collection_swing.Main" />
       <module name="kalininskyDistrictSchool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="M_bookShop.stage_4_Swing.*" />
+          <option name="PATTERN" value="M_bookShop.stage_5_Collection_swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="M_bookShop.stage_4_Collection_logger.Main" />
+      <module name="kalininskyDistrictSchool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="M_bookShop.stage_4_Collection_logger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.M_bookShop.stage_5_Collection_swing.Main" />
         <item itemvalue="Application.M_bookShop.stage_4_Swing.Main" />
         <item itemvalue="Application.M_bookShop.stage_3_Collection_interface.Main" />
         <item itemvalue="Application.K_abstraction.Car.Main" />
         <item itemvalue="Application.M_bookShop.stage_1_WeakConnection.Main" />
-        <item itemvalue="Application.L_collection.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +236,7 @@
       <workItem from="1712595190590" duration="1374000" />
       <workItem from="1712684821276" duration="976000" />
       <workItem from="1712855725185" duration="4822000" />
-      <workItem from="1712997422951" duration="23095000" />
+      <workItem from="1712997422951" duration="26712000" />
     </task>
     <task id="LOCAL-00001" summary="add: 6 lessons and zero lesson">
       <created>1709933879038</created>
@@ -265,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711835958110</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add: 13,14 lessons">
+      <created>1713039316729</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713039316729</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +295,7 @@
     <MESSAGE value="add: 7 lessons" />
     <MESSAGE value="add: 8,9,10,11 lessons" />
     <MESSAGE value="add: 12 lessons" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: 12 lessons" />
+    <MESSAGE value="add: 13,14 lessons" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: 13,14 lessons" />
   </component>
 </project>

@@ -1,9 +1,9 @@
-package M_bookShop.stage_4_Swing.logic;
+package M_bookShop.stage_4_Collection_logger.logic;
 
 
-import M_bookShop.stage_4_Swing.collection.PublicationCollection;
-import M_bookShop.stage_4_Swing.model.Publication;
-import M_bookShop.stage_4_Swing.printableInfo.Printable;
+import M_bookShop.stage_4_Collection_logger.collection.PublicationCollection;
+import M_bookShop.stage_4_Collection_logger.model.Publication;
+import M_bookShop.stage_4_Collection_logger.printableInfo.Printable;
 
 import java.util.List;
 

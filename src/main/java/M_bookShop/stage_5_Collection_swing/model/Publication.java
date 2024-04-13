@@ -1,8 +1,6 @@
-package M_bookShop.stage_4_Swing.model;
+package M_bookShop.stage_5_Collection_swing.model;
 
-import M_bookShop.stage_4_Swing.printableInfo.Printable;
-
-import java.awt.*;
+import M_bookShop.stage_5_Collection_swing.printableInfo.Printable;
 
 public class Publication implements Printable {
     private String name;

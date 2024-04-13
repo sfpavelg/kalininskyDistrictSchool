@@ -1,4 +1,4 @@
-package M_bookShop.stage_4_Swing.printableInfo;
+package M_bookShop.stage_5_Collection_swing.printableInfo;
 
 import java.util.List;
 
