@@ -1,7 +1,6 @@
 package A_primaryClasses;
 
-import B_secondClasses.SecondClass;
-import B_secondClasses.StartOfLessonsInSecondClass;
+import javafx.scene.layout.HBox;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,10 +22,20 @@ public class Main {
 //        firstClass1B.schoolboyOneWrites();
 
 //        new StartOfLessonsInPrimaryClass();
-        new FirstClass();
+        //new FirstClass();
 //        SecondClass secondClass = new SecondClass();
 //        secondClass.schoolboyOneWrites();
 
+FirstClass firstClass = new FirstClass("Премия ", 200000);
+FirstClass firstClass1 = new FirstClass("Премия+ЗП ", 45000, 200000);
+
+
+
+
+
+
+
 
     }
+
 }

@@ -10,11 +10,20 @@ public class Main {
 //        new NewFrame();
 //        new NewFrameAndImage();
 //        new NewFrameAndImageAndField();
-        new NewFrameAndImageAndPathCheck();
+//        new NewFrameAndImageAndPathCheck();
 //        new NewFrameAndTwoImage();
 //        new SchoolBagAndConditionalOperators();
 //        new SchoolBagAndLogicalOperators();
 //        new SchoolBagAndArrays();
+
+            int d = 12345;
+             String dStr = Integer.toString(d);
+
+                for(int j = dStr.length()-1; j >=0; j--){
+                    char ch = dStr.charAt(j);
+                    System.out.print(ch);
+                }
+
 
     }
 }

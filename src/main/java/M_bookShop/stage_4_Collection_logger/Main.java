@@ -19,6 +19,10 @@ public class Main {
         LoggerUtil.logInfo(publicationLogic.addPublicationToCollection("Вторжение гигантов", "Хадзимэ Исаяма", "Манга", 50));
         printableInfo.printableInfo(publicationLogic.publicationCollection.getList()); //Выводим данные на печать.
 
+//        System.out.println("===   Дополнение коллекции новыми позициями.  =================================================================================================");
+//        LoggerUtil.logInfo(publicationLogic.addPublicationToCollection("Вторжение гигантов", "Хадзимэ Исаяма", "Манга", 50));
+//        printableInfo.printableInfo(publicationLogic.publicationCollection.getList()); //Выводим данные на печать.
+
         System.out.println("===   Изменение количества копия конкретной позиции.  =========================================================================================");
         LoggerUtil.logInfo(publicationLogic.updateCopiesByTitle("Вторжение гигантов", 38));
         printableInfo.printableInfo(publicationLogic.publicationCollection.getList()); //Выводим данные на печать.

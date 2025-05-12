@@ -27,7 +27,7 @@ public class BookShopFrame extends JFrame {
         mainPanel.add(titleField);
 
         JLabel authorLabel = new JLabel("Автор публикации:");
-        authorField = new JTextField(20);
+        authorField = new JTextField(22);
         mainPanel.add(authorLabel);
         mainPanel.add(authorField);
 
@@ -50,6 +50,7 @@ public class BookShopFrame extends JFrame {
                 JOptionPane.showMessageDialog(BookShopFrame.this, result);
             }
         });
+
         mainPanel.add(addButton);
 
         JButton updateButton = new JButton("Обновить копии");
