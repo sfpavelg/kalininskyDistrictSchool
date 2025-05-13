@@ -1,12 +1,11 @@
-package J_for_while;
+package H_arrays;
 
 /**
- *  Циклы
+ * Массивы
  */
 
 public class Main {
     public static void main(String[] args) {
-        new ForAndWhile();
-
+        new SchoolBagAndArrays();
     }
 }

@@ -34,7 +34,7 @@ public class BusinessCenter extends House implements InstallationOfFireAlarmSyst
         return address;
     }
 
-
+    @Override
     public String installationOfFireAlarmSystemsGOST_R_59638_2021() {
         return "Установка системы пожаротушения по ГОСТ R_59638_2021";
     }

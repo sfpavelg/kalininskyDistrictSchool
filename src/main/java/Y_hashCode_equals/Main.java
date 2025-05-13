@@ -1,5 +1,9 @@
 package Y_hashCode_equals;
 
+/**
+ * Контракт хэшкода и эквел
+ */
+
 public class Main {
     public static void main(String[] args) {
 //        CarSharing obj1 = new CarSharing("hello", "world");

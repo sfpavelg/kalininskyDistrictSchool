@@ -1,6 +1,8 @@
 package I_encapsulationAndStatic;
 
-
+/**
+ * Инкапсуляция, Статика, оператор final
+ */
 public class Main {
     public static void main(String[] args) {
         int x;

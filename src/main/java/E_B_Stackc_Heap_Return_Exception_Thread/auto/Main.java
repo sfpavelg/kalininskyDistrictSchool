@@ -4,6 +4,19 @@ import E_B_Stackc_Heap_Return_Exception_Thread.auto.warehouse.СкладКузо
 import E_B_Stackc_Heap_Return_Exception_Thread.auto.factory.ЦехПоСборкеАвтомобилей;
 import E_B_Stackc_Heap_Return_Exception_Thread.auto.model.Авто;
 
+/**
+ * Усложнённый урок
+ * Синглтон
+ * Инкапсуляция
+ * Поток
+ * Исключения и блок обработки
+ * Более качественное использование методов с возвратом данных
+ * this
+ * @Override
+ * сеттеры и геттеры
+ * Абстракция
+ */
+
 public class Main {
     public static void main(String[] args)  {
         int кузов;

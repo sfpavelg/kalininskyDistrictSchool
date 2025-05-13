@@ -1,5 +1,9 @@
 package A_primaryClasses;
 
+/**
+ * Знакомство с такими понятиями как Пакет, Класс, Метод, main, Объект
+ */
+
 public class Main {
     public static void main(String[] args) {
 

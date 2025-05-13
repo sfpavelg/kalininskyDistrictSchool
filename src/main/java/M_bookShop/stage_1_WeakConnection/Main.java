@@ -1,5 +1,11 @@
 package M_bookShop.stage_1_WeakConnection;
 
+/**
+ * Проект МАГАЗИН КНИГ.
+ * Состоит из этапов.
+ * Предполагалось на последних этапах появится БД и Клиентская часть.
+ */
+
 public class Main {
     public static void main(String[] args) {
 //        Book book = new Book("Мастер и Маргарита", "Михаил Булгаков", 20);
