@@ -19,7 +19,13 @@ public class DataClass {
     }
 
     public void setVerificationWorkOptionOne(String verificationWorkOptionOne) {
-                this.verificationWorkOptionOne = verificationWorkOptionOne;
+
+
+        this.verificationWorkOptionOne = verificationWorkOptionOne;
+
+//        System.out.println(verificationWorkOptionOne);
+//
+//        System.out.println(this.verificationWorkOptionOne);
     }
 
     public String getVerificationWorkOptionTwo() {

@@ -1,4 +1,4 @@
-package E_B_Stackc_Heap_Return.auto.Warehouse;
+package E_B_Stackc_Heap_Return_Exception_Thread.auto.warehouse;
 
 public class СкладКолёс {
     int колесо = 100;
@@ -32,8 +32,6 @@ public class СкладКолёс {
 
     @Override
     public String toString() {
-        return "СкладКолёс{" +
-                "ОстатокКолёсНаСкладе=" + колесо +
-                '}';
+        return String.valueOf(колесо);
     }
 }

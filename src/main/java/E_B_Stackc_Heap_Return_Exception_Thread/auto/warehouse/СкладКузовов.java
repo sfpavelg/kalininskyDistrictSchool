@@ -1,4 +1,4 @@
-package E_B_Stackc_Heap_Return.auto.Warehouse;
+package E_B_Stackc_Heap_Return_Exception_Thread.auto.warehouse;
 
 public class СкладКузовов {
     int кузова = 100;
@@ -57,6 +57,7 @@ public class СкладКузовов {
 
     //@Override - аннотация. конкретно эта означает переопределение данного метода toString().
     //То есть он был по дефолту, со своей реализацией. Но мы ему задали новый функционал.
+    //String.valueOf(кузова) это приведение типов. String toString() возвращает String, а переменная "кузова" имеет тип int.
     @Override
     public String toString() {
         return String.valueOf(кузова);

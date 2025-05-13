@@ -1,4 +1,4 @@
-package E_B_Stackc_Heap_Return.auto.model;
+package E_B_Stackc_Heap_Return_Exception_Thread.auto.model;
 
 public class Авто {
     private String спецификация;

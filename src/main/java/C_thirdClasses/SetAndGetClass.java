@@ -5,7 +5,7 @@ public class SetAndGetClass {
     SetAndGetClass(){}
 
     void teacherChecksWork(){
-        System.out.println("Учитель проверяет работы.");
+        System.out.println("Учитель даёт задание или проверяет работы.");
         String verificationWork;
         verificationWork = dataClass.getVerificationWorkOptionOne();
         System.out.println(verificationWork);
@@ -36,9 +36,9 @@ public class SetAndGetClass {
                 "\n5.Тело класса{}.\n5.Название файла совпадает с названием класса." +
                 "\n6.Название пакета package совпадает с пакетом где он лежит.";
         dataClass.setVerificationWorkOptionOne(verificationWork);
-//        System.out.println(verificationWork);
         System.out.println("Первый ученик сдал Проверочную работу с вариантом №1.");
         System.out.println("============================================================================");
+        //System.out.println(verificationWork);
     }
 
     void schoolboyTwoWrites() {

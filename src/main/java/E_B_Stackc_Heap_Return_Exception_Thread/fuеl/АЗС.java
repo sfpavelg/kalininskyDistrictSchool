@@ -1,17 +1,18 @@
-package E_B_Stackc_Heap_Return.fuеl;
+package E_B_Stackc_Heap_Return_Exception_Thread.fuеl;
 
-public class АЗС {
+import E_B_Stackc_Heap_Return_Exception_Thread.auto.model.Авто;
+
+public abstract class АЗС {
    private int fuel = 1000;
 
 
-//   public void прибылБензовоз(Car car){
-//
-//   }
+   public abstract void прибылБензовоз(Авто авто);
 
-   public void колонка_1(){
 
-   }
-   public void колонка_2(){
+   public abstract void колонка_1();
 
-   }
+
+   public abstract void колонка_2();
+
+
 }

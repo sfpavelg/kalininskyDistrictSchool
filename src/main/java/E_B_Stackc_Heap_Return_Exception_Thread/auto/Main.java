@@ -1,8 +1,8 @@
-package E_B_Stackc_Heap_Return.auto;
+package E_B_Stackc_Heap_Return_Exception_Thread.auto;
 
-import E_B_Stackc_Heap_Return.auto.Warehouse.СкладКузовов;
-import E_B_Stackc_Heap_Return.auto.factory.ЦехПоСборкеАвтомобилей;
-import E_B_Stackc_Heap_Return.auto.model.Авто;
+import E_B_Stackc_Heap_Return_Exception_Thread.auto.warehouse.СкладКузовов;
+import E_B_Stackc_Heap_Return_Exception_Thread.auto.factory.ЦехПоСборкеАвтомобилей;
+import E_B_Stackc_Heap_Return_Exception_Thread.auto.model.Авто;
 
 public class Main {
     public static void main(String[] args)  {
@@ -26,6 +26,7 @@ public class Main {
 
         //4. Посылаем курьера за кузовом и грузим кузов на стеллаж цеха
         цех.кузов = цех.курьер_100.НоситВсёЧтоВРукиДашь("Кузов", кузов);
+        System.out.println("Сейчас на стеллаже цеха всего кузовов:" + цех.кузов);
 
         //5. Пытаемся создать ещё один склад Кузовов
         СкладКузовов складКузовов2 = СкладКузовов.ЕДИНСТВЕННЫЙСкладКузовов();
@@ -36,6 +37,11 @@ public class Main {
         //7. Поглядим, что собрали:
         System.out.println(ауди.toString());
 
+        //Задание на дом
+        //1. Повторить полностью код
+        //2. дописать работу склада сидений
+        //3. Укомплектовать полностью автомобиль
+        //4. Продумать логику движения деталей в цеху. Цифры должны меняться если идёт сборка автомобиля.
 
     }
 }

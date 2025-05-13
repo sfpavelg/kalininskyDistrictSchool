@@ -1,7 +1,7 @@
-package E_B_Stackc_Heap_Return.auto.factory;
+package E_B_Stackc_Heap_Return_Exception_Thread.auto.factory;
 
-import E_B_Stackc_Heap_Return.auto.Robots.Курьер;
-import E_B_Stackc_Heap_Return.auto.model.Авто;
+import E_B_Stackc_Heap_Return_Exception_Thread.auto.robots.Курьер;
+import E_B_Stackc_Heap_Return_Exception_Thread.auto.model.Авто;
 
 
 public class ЦехПоСборкеАвтомобилей {

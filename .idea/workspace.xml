@@ -56,7 +56,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -98,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M_bookShop.stage_3_Collection_interface.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="M_bookShop.stage_3_Collection_interface.Main" />
+    <configuration name="E_A_drivingLesson.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E_A_drivingLesson.Main" />
       <module name="kalininskyDistrictSchool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="M_bookShop.stage_3_Collection_interface.*" />
+          <option name="PATTERN" value="E_A_drivingLesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +134,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="M_bookShop.stage_4_Collection_logger.Main" />
+      <option name="MAIN_CLASS_NAME" value="E_B_Stackc_Heap_Return_Exception_Thread.auto.Main" />
       <module name="kalininskyDistrictSchool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="M_bookShop.stage_4_Collection_logger.*" />
+          <option name="PATTERN" value="E_B_Stackc_Heap_Return_Exception_Thread.auto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +148,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.A_primaryClasses.Main" />
+        <item itemvalue="Application.E_A_drivingLesson.Main" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.A_primaryClasses.Main" />
         <item itemvalue="Application.M_bookShop.stage_5_Collection_swing.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.M_bookShop.stage_3_Collection_interface.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +225,10 @@
       <workItem from="1713804833123" duration="602000" />
       <workItem from="1714819747969" duration="132000" />
       <workItem from="1716732941481" duration="6898000" />
-      <workItem from="1746714608774" duration="938000" />
+      <workItem from="1746714608774" duration="5723000" />
+      <workItem from="1746728077307" duration="4588000" />
+      <workItem from="1747062442853" duration="19342000" />
+      <workItem from="1747145606256" duration="986000" />
     </task>
     <task id="LOCAL-00001" summary="add: 6 lessons and zero lesson">
       <created>1709933879038</created>
@@ -275,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713044368790</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update lessons">
+      <created>1747081598572</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747081598572</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +311,8 @@
     <MESSAGE value="add: 13,14 lessons" />
     <MESSAGE value="add: 15 lessons" />
     <MESSAGE value="update: 15 lessons" />
-    <option name="LAST_COMMIT_MESSAGE" value="update: 15 lessons" />
+    <MESSAGE value="update lessons" />
+    <option name="LAST_COMMIT_MESSAGE" value="update lessons" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

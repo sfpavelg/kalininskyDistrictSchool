@@ -1,4 +1,4 @@
-package E_B_Stackc_Heap_Return.auto.Robots;
+package E_B_Stackc_Heap_Return_Exception_Thread.auto.robots;
 
 public abstract class Курьер {
     int id;
